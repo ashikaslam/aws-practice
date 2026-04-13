@@ -1,0 +1,11 @@
+[project]
+name = "aws-practice"
+version = "0.1.0"
+description = "Minimal Django DRF API for AWS EC2 deployment practice"
+requires-python = ">=3.13"
+dependencies = [
+    "django>=6.0.4",
+    "djangorestframework>=3.17.1",
+    "gunicorn>=25.3.0",
+    "python-dotenv>=1.2.2",
+]
